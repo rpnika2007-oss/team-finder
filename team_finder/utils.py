@@ -1,8 +1,6 @@
 from django.core.paginator import Paginator
 
-
 DEFAULT_PAGE_SIZE = 12
-
 
 
 def get_page(queryset, page_number, per_page=DEFAULT_PAGE_SIZE):

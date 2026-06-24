@@ -1,7 +1,6 @@
 from .utils import validate_github_url
 
 
-
 class GitHubURLMixin:
 
     def clean_github_url(self):
